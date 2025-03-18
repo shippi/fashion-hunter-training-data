@@ -838,6 +838,66 @@
         }
       }
     ]
+  },
+  // #15
+  {
+    "messages": [
+      { "role": "system", "content": "" },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://raw.githubusercontent.com/shippi/fashion-hunter-training-data/refs/heads/main/images/15.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "helmet": {
+            "name": "Fencer's Eyepatch",
+            "primaryColour": null,
+            "secondaryColour": null,
+            "enabled": false
+          },
+          "chest": {
+            "name": "Ajarakan Mail",
+            "primaryColour": null,
+            "secondaryColour": null,
+            "enabled": true
+          },
+          "arms": {
+            "name": "Ajarakan Vanbraces",
+            "primaryColour": null,
+            "secondaryColour": null,
+            "enabled": true
+          },
+          "waist": {
+            "name": "Ajarakan Coil",
+            "primaryColour": null,
+            "secondaryColour": null,
+            "enabled": true
+          },
+          "legs": {
+            "name": "Balahara Greaves",
+            "primaryColour": null,
+            "secondaryColour": null,
+            "enabled": true
+          },
+          "undershirt": {
+            "primaryColour": "#2b2c27",
+            "enabled": true
+          },
+          "tights": {
+            "primaryColour": "#2b2c27",
+            "enabled": true
+          }
+        }
+      }
+    ]
   }
 ]
 
