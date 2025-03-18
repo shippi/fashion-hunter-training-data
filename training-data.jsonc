@@ -598,6 +598,66 @@
         }
       }
     ]
+  },
+  // #11
+  {
+    "messages": [
+      { "role": "system", "content": "" },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://raw.githubusercontent.com/shippi/fashion-hunter-training-data/refs/heads/main/images/11.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "helmet": {
+            "name": "Dahaad Shardhelm",
+            "primaryColour": "#ffffff",
+            "secondaryColour": "#665f28",
+            "enabled": true
+          },
+          "chest": {
+            "name": "Blango Mail",
+            "primaryColour": "#656028",
+            "secondaryColour": "#ffffff",
+            "enabled": true
+          },
+          "arms": {
+            "name": "Blango Vambraces",
+            "primaryColour": "#ffffff",
+            "secondaryColour": "#ffffff",
+            "enabled": true
+          },
+          "waist": {
+            "name": "Dahaad Shardcoil",
+            "primaryColour": "#ffffff",
+            "secondaryColour": "#9d935e",
+            "enabled": true
+          },
+          "legs": {
+            "name": "G. Arkveld Greaves",
+            "primaryColour": "#b4a645",
+            "secondaryColour": "#ffffff",
+            "enabled": true
+          },
+          "undershirt": {
+            "primaryColour": "#ffffff",
+            "enabled": false
+          },
+          "tights": {
+            "primaryColour": "#2f2f2f",
+            "enabled": false
+          }
+        }
+      }
+    ]
   }
 ]
 
