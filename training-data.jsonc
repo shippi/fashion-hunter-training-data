@@ -658,6 +658,66 @@
         }
       }
     ]
+  },
+  // #12
+  {
+    "messages": [
+      { "role": "system", "content": "" },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://raw.githubusercontent.com/shippi/fashion-hunter-training-data/refs/heads/main/images/12.png"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "helmet": {
+            "name": "Hope Mask",
+            "primaryColour": null,
+            "secondaryColour": null,
+            "enabled": true
+          },
+          "chest": {
+            "name": "Battle Mail",
+            "primaryColour": null,
+            "secondaryColour": null,
+            "enabled": true
+          },
+          "arms": {
+            "name": "Commission Vambraces",
+            "primaryColour": null,
+            "secondaryColour": null,
+            "enabled": true
+          },
+          "waist": {
+            "name": "Rathian Coil",
+            "primaryColour": null,
+            "secondaryColour": null,
+            "enabled": true
+          },
+          "legs": {
+            "name": "Commission Greaves",
+            "primaryColour": null,
+            "secondaryColour": null,
+            "enabled": true
+          },
+          "undershirt": {
+            "primaryColour": "#313131",
+            "enabled": false
+          },
+          "tights": {
+            "primaryColour": "#131313",
+            "enabled": true
+          }
+        }
+      }
+    ]
   }
 ]
 
