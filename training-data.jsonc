@@ -718,6 +718,66 @@
         }
       }
     ]
+  },
+  // #13
+  {
+    "messages": [
+      { "role": "system", "content": "" },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://raw.githubusercontent.com/shippi/fashion-hunter-training-data/refs/heads/main/images/13.jpeg"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "helmet": {
+            "name": "Arkvulcan Helm",
+            "primaryColour": "#1d1d1d",
+            "secondaryColour": "#090909",
+            "enabled": true
+          },
+          "chest": {
+            "name": "Battle Mail",
+            "primaryColour": "#131313",
+            "secondaryColour": "#131313",
+            "enabled": true
+          },
+          "arms": {
+            "name": "Arkvulcan Vambraces",
+            "primaryColour": "#402d27",
+            "secondaryColour": "#090909",
+            "enabled": true
+          },
+          "waist": {
+            "name": "Battle Coil",
+            "primaryColour": "#131313",
+            "secondaryColour": "#131313",
+            "enabled": true
+          },
+          "legs": {
+            "name": "Ingot Greaves",
+            "primaryColour": "#1d1d1d",
+            "secondaryColour": "#131313",
+            "enabled": true
+          },
+          "undershirt": {
+            "primaryColour": "#313131",
+            "enabled": false
+          },
+          "tights": {
+            "primaryColour": "#313131",
+            "enabled": false
+          }
+        }
+      }
+    ]
   }
 ]
 
