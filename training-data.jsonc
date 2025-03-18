@@ -778,6 +778,66 @@
         }
       }
     ]
+  },
+  // #14
+  {
+    "messages": [
+      { "role": "system", "content": "" },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://raw.githubusercontent.com/shippi/fashion-hunter-training-data/refs/heads/main/images/14.png"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "helmet": {
+            "name": "Guild Knight Feather",
+            "primaryColour": "#4c85ff",
+            "secondaryColour": "#ffffff",
+            "enabled": true
+          },
+          "chest": {
+            "name": "Guild Knight Suit",
+            "primaryColour": "#4c85ff",
+            "secondaryColour": "#ffffff",
+            "enabled": true
+          },
+          "arms": {
+            "name": "Guild Knight Gloves",
+            "primaryColour": "#4c85ff",
+            "secondaryColour": "#ffffff",
+            "enabled": true
+          },
+          "waist": {
+            "name": "Guild Knight Coat",
+            "primaryColour": "#4c85ff",
+            "secondaryColour": "#ffffff",
+            "enabled": true
+          },
+          "legs": {
+            "name": "Guild Knight Boots",
+            "primaryColour": "#A0C9E9",
+            "secondaryColour": "#005EB8",
+            "enabled": true
+          },
+          "undershirt": {
+            "primaryColour": "#333333",
+            "enabled": false
+          },
+          "tights": {
+            "primaryColour": "#333333",
+            "enabled": false
+          }
+        }
+      }
+    ]
   }
 ]
 
