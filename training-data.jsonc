@@ -2,7 +2,10 @@
   // #1
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -62,7 +65,10 @@
   // #2
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -122,7 +128,10 @@
   // #3
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -182,7 +191,10 @@
   // #4
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -242,7 +254,10 @@
   // #5
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -302,7 +317,10 @@
   // #6
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -362,7 +380,10 @@
   // #7
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -422,7 +443,10 @@
   // #8
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -482,7 +506,10 @@
   // #9
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -542,7 +569,10 @@
   // #10
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -602,7 +632,10 @@
   // #11
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -662,7 +695,10 @@
   // #12
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -722,7 +758,10 @@
   // #13
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -782,7 +821,10 @@
   // #14
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
@@ -842,7 +884,10 @@
   // #15
   {
     "messages": [
-      { "role": "system", "content": "" },
+      {
+        "role": "system",
+        "content": "You will only ever be given images. These images will typically be screenshots of the layered armour screen in Monster Hunter Wilds. You aim to identify each piece of armour (there should be 5), normally using the left-hand side UI and the colours used (in hexcode). \n\nThe left-hand UI will have a row for each piece of armour. On the very left side of the row will be the armour name. On the very right side of the row will be two squares/boxes. The first box is the primary colour, and the second box is the secondary colour.\n\nIf there is no UI indicating the names of the armour pieces, return an error as json.\n\nYou will also notice there are alpha and beta characters in the armour names; ignore those when getting the names of these armour pieces.\n\nI want the returned data to be in the following format:\n{\n   helmet: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   chest: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   arms: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   waist: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   legs: {\n         name: string\n         primaryColour: string | null\n        secondaryColour: string | null\n       enabled: boolean\n   },\n   undershirt: {\n       primaryColour: string\n       enabled: boolean\n   },\n   tights: {\n      primaryColour: string\n       enabled: boolean\n   }\n}\n"
+      },
       {
         "role": "user",
         "content": [
